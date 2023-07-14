@@ -15,5 +15,10 @@ class Program
         {
             Console.WriteLine("День не является выходным.");
         }
+        else (day > 7)
+        {
+            Console.WriteLine("оОшибка ввода.");
+        }   
+
     }
 }
